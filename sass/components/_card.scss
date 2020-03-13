@@ -1,0 +1,88 @@
+.page-card-container {
+  background: $color-white;
+  margin-top: -6rem;
+  z-index: 2;
+  grid-column: center-start / center-end;
+  padding: 5rem 8rem;
+  box-shadow: $default-box-shadow;
+  //height: 34.5rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 4rem;
+
+  @media only screen and (max-width: $bp-tab) {
+    grid-template-columns: 1fr;
+    grid-row-gap: 3rem;
+    height: 120%;
+  }
+
+  @media only screen and (max-width: $bp-tab-por) {
+    padding: 4rem 5rem;
+    margin-top: -7rem;
+  }
+
+  @media only screen and (max-width: $bp-mobile-small) {
+    padding: 3rem 5rem;
+  }
+}
+
+.page__card {
+  display: flex;
+  display: grid;
+  grid-auto-flow: row;
+  grid-template-rows: min-content min-content max-content;
+  grid-row-gap: 1.5rem;
+
+  &--icon {
+  }
+
+  &--title {
+    margin-bottom: 0.5rem;
+
+    h3 {
+      color: $color-black;
+    }
+  }
+
+  &--desc {
+    p {
+    }
+  }
+}
+
+.hww-cards {
+  background: $color-white;
+  padding: 4rem 4rem;
+  margin-bottom: 3rem;
+  box-shadow: $default-box-shadow;
+
+  &__icontitle {
+    display: grid;
+    grid-template-columns: min-content 1fr;
+    grid-row-gap: 1.5rem;
+    grid-column-gap: 2rem;
+    margin-bottom: 2rem;
+    align-items: center;
+
+    &--icon {
+      background: linear-gradient(
+          180deg,
+          rgba(255, 255, 255, 0) 0%,
+          #ffffff 100%
+        ),
+        #c5d1ff;
+      padding: 1.5rem;
+      border-radius: 100%;
+    }
+  }
+
+  &__title {
+    border-bottom: 1px solid $color-grey;
+    padding-bottom: 0.5rem;
+    margin-bottom: 2rem;
+  }
+
+  &__desc {
+    //color: $color-cool-grey;
+  }
+}

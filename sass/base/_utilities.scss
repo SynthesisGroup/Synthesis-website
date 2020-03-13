@@ -1,0 +1,76 @@
+.bg-primary {
+  background: $color-primary;
+}
+
+.bg-white {
+  background: $color-white;
+}
+
+.bg-black {
+  background: $color-black;
+}
+
+.highlight-white {
+  color: $color-white !important;
+}
+
+.highlight-primary {
+  color: $color-primary !important;
+}
+.dot-circle {
+  font-family: $font-primary;
+  color: $color-primary !important;
+}
+
+.border-bottom {
+  &--white {
+    border-bottom: 1px solid $color-white;
+  }
+
+  &--black {
+    border-bottom: 1px solid $color-black;
+  }
+}
+
+.heading-22 {
+  font-size: 2.2rem;
+}
+
+.mainlink.main-btn {
+  padding: 0.7rem 1rem 0.7rem 3rem;
+  font-size: $default-font;
+  color: $color-white !important;
+  text-decoration: none;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  position: relative;
+  overflow: hidden;
+
+  &::before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    right: 100%;
+    bottom: 0;
+    background: #ff9292;
+    height: 4px;
+    -webkit-transition-property: right;
+    transition-property: right;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+  }
+
+  &:hover:before,
+  &:focus:before,
+  &:active:before {
+    right: 0;
+  }
+}
+
+.mainlink.main-btn.bg-white {
+  color: $color-primary !important;
+}

@@ -1,0 +1,10 @@
+.container {
+    display:grid;
+    grid-template-columns: [full-start] minmax(6rem, 1fr) [center-start] repeat(6, [col-start] minmax(min-content, 19rem) [col-end]) [center-end] minmax(6rem, 1fr) [full-end];
+
+
+    @media only screen and (max-width: $bp-mobile-small) {
+        grid-template-columns: [full-start] minmax(3.5rem, 1fr) [center-start] repeat(6, [col-start] minmax(min-content, 19rem) [col-end]) [center-end] minmax(3.5rem, 1fr) [full-end];
+    }
+
+}

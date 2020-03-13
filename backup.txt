@@ -1,0 +1,378 @@
+
+
+ 
+    <a href="#" class="scroller"> 
+            <span class="scroller__image"><img src="img/scroll-line.svg" alt="Scroll line"></span>
+            <span class="scroller__text">Scroll</span>
+        </a>
+
+    </div>
+
+
+    <section class="page-card-container">
+
+        <div class="page__card">
+            <div class="page__card--icon">
+                <img src="img/people-outline.svg" alt="Focus on you, always Icon">
+            </div>
+            <div class="page__card--title">
+                 <h3 class="heading-22">Focus On You, Always</h3>
+            </div>
+            <div class="page__card--desc">
+                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Porttitor sagittis at orci quis adipiscing aenean.</p>
+            </div>
+        </div>
+
+       <div class="page__card">
+            <div class="page__card--icon">
+                <img src="img/embedded.svg" alt="Embedded Research Icon">
+            </div>
+            <div class="page__card--title">
+                    <h3 class="heading-22">Embedded Research</h3>
+            </div>
+            <div class="page__card--desc">
+                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Porttitor sagittis at orci quis adipiscing aenean.</p>
+            </div>
+        </div>
+
+        <div class="page__card">
+                <div class="page__card--icon">
+                    <img src="img/Product driven.svg" alt="Product Driven Icon">
+                </div>
+                <div class="page__card--title">
+                     <h3 class="heading-22">Product Driven</h3>
+                </div>
+                <div class="page__card--desc">
+                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Porttitor sagittis at orci quis adipiscing aenean.</p>
+                </div>
+        </div>
+
+    </section>
+
+    <section class="clients">
+
+        <ul class="clients__list">
+            <li class="clients__item"><img src="img/client1.svg" alt="Client 1"></li>
+            <li class="clients__item"><img src="img/client2.svg" alt="Client 2"></li>
+            <li class="clients__item"><img src="img/client3.svg" alt="Client 3"></li>
+            <li class="clients__item"><img src="img/client4.svg" alt="Client 4"></li>
+            <li class="clients__item"><img src="img/client5.svg" alt="Client 5"></li>
+
+        </ul>
+
+    </section>
+
+
+    <section class="full-section whatwedo">
+
+        <div class="content fly-text-cont">
+            <p class="fly-text">Services</p>
+            <h2 class="main content__title">WHAT <br>WE DO<span class="dot-circle">.</span></h2>
+            <h3 class="content__subtitle">From communications, digital, development & product, we are a full service agency<span class="dot-circle">.</span></h3>
+            <p class="content__desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Varius proin pulvinar euismod massa laoreet tellus lacinia. Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+            <a href="#" class="mainlink">
+                <span class="border-bottom--white">Learn more</span>
+                <i class="iconright"><img src="img/Arrow Icon Right.svg" alt=""></i></a>
+        </div>
+
+        <div class="services_container">
+
+            <div class="services">
+                <div class="services__item">
+                    <img class="services__item--icon" src="img/Website Icon.png" alt="Website icon">
+                    <h4 class="services__item--title">Websites</h4>
+                    <ul class="services__item--list">
+                        <li>Full websites / Microsites</li>
+                        <li>Wordpress /  Craft Sites</li>
+                        <li>Shopify / E-commerce Sites</li>
+                    </ul>
+                </div>
+
+                <div class="services__item">
+                    <img class="services__item--icon" src="img/Digital marketing Icon.png" alt="Website icon">
+                    <h4 class="services__item--title">Digital Marketing</h4>
+                    <ul class="services__item--list">
+                        <li>Social Media Marketing and Management</li>
+                        <li>SEO / SEM</li>
+                        <li>Community Management</li>
+                    </ul>
+                </div>
+
+                <div class="services__item">
+                    <img class="services__item--icon" src="img/products icon.png" alt="Website icon">
+                    <h4 class="services__item--title">Products</h4>
+                    <ul class="services__item--list">
+                        <li>Web and Mobile Apps</li>
+                        <li>System and Platforms</li>
+                    </ul>
+                </div>
+
+                <div class="services__item">
+                    <img class="services__item--icon" src="img/advertising icon.png" alt="Website icon">
+                    <h4 class="services__item--title">Advertising</h4>
+                    <ul class="services__item--list">
+                        <li>Print</li>
+                        <li>OOH</li>
+                    </ul>
+                </div>
+
+              
+
+
+            </div>
+
+            <p class="letstalk">We’d love to help you wiith your business. <a href="#">Let’s Talk!</a></p>
+
+
+
+        </div>
+
+    </section>
+
+
+    <section class="full-section featured-projects">
+
+        <div class="content fly-text-cont">
+            <p class="fly-text">Case Studies</p>
+            <h2 class="main content__title">Featured <br>Projects<span class="dot-circle">.</span></h2>
+            <h3 class="content__subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing adipiscing eli elit<span class="dot-circle">.</span></h3>
+            <a href="#" class="mainlink">
+                <span class="border-bottom--black">View All Projects</span>
+            </a>
+        </div>
+       
+
+        <div class="project-cont">
+            <div class="project">
+                
+                <h2 class="project__number">02</h2>
+
+                <div class="project__title">
+
+                        <p class="project__title--name">Spinnerei</p>
+
+                        <ul class="project__title--cat">
+                            <li>Social Media </li>
+                            <li>Print</li>
+                        </ul>
+
+                </div>
+            </div>
+
+            
+            <div class="project-case">
+                <div class="project-case__item">
+
+                    <div class="project-case__item--bg"></div>
+                    <!--
+                    <div class="project-case__item--image">
+                        <img src="img/case-study-02 1.png" alt="Featured Image">
+                    </div>
+                    -->
+                    <span class="project-case__item--overview">Overview</span>
+
+                    <div class="project-case__footer">
+                        <p class="project-case__item--desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <a href="#" class="project-case__item--button button">View Case Study</a>
+                  </div>
+                </div>
+    
+            </div>
+         </div>
+
+         <div class="circle-pattern-bg"></div>
+
+         <div class="project-intro">
+
+            <p class="project-intro__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Varius proin pulvinar euismod massa laoreet tellus lacinia. Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+
+            <div class="nav-arrows">
+                <a href="#" class="nav-arrows__prev">
+                    
+                    <svg class="nav-arrows__prev-icon" width="74" height="42" viewBox="0 0 74 42" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle r="20.5" transform="matrix(-1 0 0 1 21 21)" stroke="#8895A7"/>
+                        <line y1="-0.5" x2="52" y2="-0.5" transform="matrix(-1 8.74228e-08 8.74228e-08 1 73.7333 21)" stroke="#8895A7"/>
+                        <path d="M17.7333 20.0667L22.6333 22.8957L22.6333 17.2377L17.7333 20.0667Z" fill="#8895A7"/>
+                    </svg>
+
+                    <span>Previous</span>
+    
+                </a>
+
+                <a href="#" class="nav-arrows__next">
+
+                        <span>Next</span>
+                    
+                        
+                        <svg class="nav-arrows__prev-icon" width="74" height="42" viewBox="0 0 74 42" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="52.7333" cy="21" r="20.5" stroke="#8895A7"/>
+                            <line x1="4.37114e-08" y1="20.5" x2="52" y2="20.5" stroke="#8895A7"/>
+                            <path d="M56 20.0667L51.1 22.8957L51.1 17.2377L56 20.0667Z" fill="#8895A7"/>
+                        </svg>
+    
+    
+                     
+        
+                    </a>
+
+            </div>
+
+
+            <div class="navigator">
+
+                <span class="navigator__number"><span class="active">02</span> / 06</span>
+
+                
+                <svg class="navigator__slide" width="220" height="11" viewBox="0 0 220 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <line y1="5" x2="220" y2="5" stroke="#8895A7" stroke-width="2"/>
+                <line y1="5" x2="59" y2="5" stroke="#1C1B20" stroke-width="2"/>
+                <circle cx="65.5" cy="5.5" r="5" fill="#1C1B20" stroke="#1C1B20"/>
+                </svg>
+    
+
+            </div>
+
+
+         </div>
+
+
+
+    </section>
+
+
+    <section class="howwework">
+
+
+        <div class="content">
+            <h2 class="main content__title">How we <br>work<span class="dot-circle">.</span></h2>
+
+            <div class="content__subdesc">
+                <h3 class="content__subtitle">Your direction, our process<span class="dot-circle">.</span></h3>
+                <p class="content__desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Varius proin pulvinar euismod massa laoreet tellus lacinia. Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+             </div>
+         </div>
+
+    </section>
+
+    <section class="hww-cont">
+
+        <div class="hww-cards">
+            <div class="hww-cards__icontitle">
+                <i class="hww-cards__icontitle--icon"><img src="img/future-proof.svg" alt="Future Proof Icon"></i>
+                <h3 class="hww-cards__icontitle--title heading-22">Future Proof</h3>
+            </div>
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Varius eget vitae at purus curabitur rhoncus, sed.</p>
+        </div>
+
+        <div class="hww-cards">
+            <div class="hww-cards__icontitle">
+                <i class="hww-cards__icontitle--icon"><img src="img/always-in-touch.png" alt="Future Proof Icon"></i>
+                <h3 class="hww-cards__icontitle--title heading-22">Always in touch</h3>
+            </div>
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Varius eget vitae at purus curabitur rhoncus, sed.</p>
+        </div>
+
+
+        <div class="hww-cards">
+            <div class="hww-cards__icontitle">
+                <i class="hww-cards__icontitle--icon"><img src="img/pay-as-you-go.svg" alt="Future Proof Icon"></i>
+                <h3 class="hww-cards__icontitle--title heading-22">Pay as you go</h3>
+            </div>
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Varius eget vitae at purus curabitur rhoncus, sed.</p>
+        </div>
+
+    </section>
+
+
+    <section class="quote">
+
+        <div class="content">
+
+            <blockquote><h2 class="quote--large">To others what may appear the  impossible, becomes possible with Synthesis — <span class="highlight-primary">We love a challenge<span class="dot-circle">.</span></span></h2></blockquote>
+
+            <img src="img/quote-illustration.png" alt="Quote Illustration">
+
+        </div>
+
+    </section>
+
+
+    <section class="full-section cta-bottom">
+
+        <div class="content fly-text-cont">
+            <p class="fly-text">Get Started</p>
+            <h2 class="main content__title">Work <br>With us<span class="dot-circle">.</span></h2>
+            <div class="content__subdesc">
+                <h3 class="content__subtitle">Let’s build something amazing together<span class="dot-circle">.</span></h3>
+                <p class="content__desc">Think we might we the right friends for your next adventure? Take a minute, we'd love to hear about your project.</p>
+                </div>
+                <a href="#" class="mainlink">
+                <span>Start A Project</span>
+                <i class="iconright">
+
+                    <svg width="74" height="42" viewBox="0 0 74 42" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="52.7333" cy="21" r="20.5" stroke="#ffffff"/>
+                        <line x1="4.37114e-08" y1="20.5" x2="52" y2="20.5" stroke="#ffffff"/>
+                        <path d="M56 20.0667L51.1 22.8957L51.1 17.2377L56 20.0667Z" fill="#ffffff"/>
+                    </svg>
+                </i>   
+
+                </a>
+        </div>
+
+    </section>
+
+
+    <footer class="footer dark">
+
+        <div class="content">
+
+            <div class="footer-logo">
+                
+                <svg class="footer-logo__icon" width="48" height="59" viewBox="0 0 48 59" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M30.32 42.24C30.32 32.64 28.48 29.04 21.68 26.24L14.96 23.52C10.96 21.92 10.24 20.48 10.24 15.84C10.24 13.36 10.72 11.44 11.76 10.24C12.64 9.28 13.76 8.64 15.6 8.64C17.52 8.64 18.8 9.28 19.6 10.32C20.8 11.84 20.96 13.84 20.96 16.4H29.92C29.92 10.96 28.88 6.88 25.92 4C23.6 1.76 20.24 0.559996 15.68 0.559996C11.6 0.559996 8.4 1.84 5.92 4C2.8 6.8 1.28 10.96 1.28 16.08C1.28 24.88 3.44 28 9.2 30.4L16 33.2C20.4 34.96 21.36 36.48 21.36 42.56C21.36 45.6 21.04 47.52 19.84 48.88C18.96 49.92 17.6 50.48 15.52 50.48C13.52 50.48 12.16 49.84 11.36 48.96C10.08 47.52 9.76 45.6 9.76 42.56H0.8C0.8 48.56 1.76 52.08 4.48 54.8C6.88 57.2 10.56 58.56 15.52 58.56C20.56 58.56 24.32 57.04 26.64 54.8C29.52 52 30.32 48.08 30.32 42.24Z" fill="white"/>
+                <path d="M37.0766 56.6816C35.8754 55.4805 35.2748 54.001 35.2748 52.2432C35.2748 50.4854 35.8754 49.0059 37.0766 47.8047C38.2777 46.5742 39.7572 45.959 41.515 45.959C43.2729 45.959 44.7523 46.5742 45.9535 47.8047C47.184 49.0059 47.7992 50.4854 47.7992 52.2432C47.7992 54.001 47.184 55.4805 45.9535 56.6816C44.7523 57.8535 43.2729 58.4395 41.515 58.4395C39.7572 58.4395 38.2777 57.8535 37.0766 56.6816Z" fill="#ED1C24"/>
+                </svg>
+
+                <p class="footer-logo__desc">Enough about us, <a href="#"><span class="highlight-white border-bottom--white">tell us about you</span> <span class="dot-circle">.</span></a></p>
+    
+
+            </div>
+
+
+            <div class="footer-contact">
+                    <p class="footer-contact__address">2319 Cityland 10 Tower 2, HV Dela Costa Corner Valero, Salcedo Village, Makati City</p>
+                    <p class="footer-contact__number">+63 917 773 4225</p>
+                    <p class="footer-contact__email"><a href="mailto:careers@synthesisgroup.co">careers@synthesisgroup.co</a></p>
+
+            </div>
+
+            <div class="footer-social">
+                <ul class="social">
+                    <li class="social__item"><a href="#"><img src="img/fb-icon.png" alt="Facebook"></a></li>
+                    <li class="social__item"><a href="#"><img src="img/linkedin-icon.png" alt="LinkedIn"></a></li>
+                    <li class="social__item"><a href="#"><img src="img/twitter-icon.png" alt="Twitter"></a></li>
+                    <li class="social__item"><a href="#"><img src="img/ig-icon.png" alt="Instagram"></a></li>
+                </ul>
+
+            </div>
+
+
+        </div>
+
+        
+
+        <div class="copyright">
+
+                <p class="copyright-text">© 2019 Synthetic Group. All Rights Reserved. </p>
+
+                <ul class="copyright-links">
+                    <li class="copyright-links__items"><a href="#">Privacy Policy</a></li>
+                    <li class="copyright-links__items"><a href="#">Terms and Conditions</a></li>
+                </ul>
+
+            </div>
+

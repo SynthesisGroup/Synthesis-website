@@ -1,0 +1,38 @@
+// FONT
+
+$default-font: 1.6rem;
+
+// COLORS
+$color-primary: #ed1c24;
+$color-black: #1c1b20;
+$color-white: #fff;
+
+$color-text-dark: #414141;
+$color-grey: #d3d3d3;
+$color-grey-light: #c4c4c4;
+$color-cool-grey: #8895a7;
+
+// FONT VARIABLES
+$font-primary: "CircularStd", sans-serif;
+$font-display: "DIN", sans-serif;
+
+// GRID
+$grid-center: center-start / center-end;
+
+// SHADOWS
+
+$default-box-shadow: 0px 10px 50px rgba(139, 163, 185, 0.4),
+  0px 60px 30px rgba(0, 0, 0, 0.02);
+
+// TRANSITION
+
+$default-transition: all 0.2s ease-in-out;
+
+// RESPONSIVE BREAKPOINTS
+$bp-desktop-lg: 90em; //1440px
+$bp-1260: 78.75em; //1260px
+$bp-desktop-sm: 78.75em; //1160px
+$bp-tab: 56.25em; //900px
+$bp-tab-por: 48em; //768px
+$bp-mobile: 35.5em; //569px
+$bp-mobile-small: 25.8em; //414px

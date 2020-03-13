@@ -1,0 +1,131 @@
+.footer {
+  background: $color-black;
+  grid-column: full-start / full-end;
+  display: grid;
+  grid-template-columns:
+    [full-start] minmax(6rem, 1fr) [center-start] repeat(
+      6,
+      [col-start] minmax(min-content, 19rem) [col-end]
+    )
+    [center-end] minmax(6rem, 1fr) [full-end];
+  border-top: 5px solid $color-primary;
+
+  .content {
+    @include six-column;
+    margin: 9rem 0;
+
+    @media only screen and (max-width: $bp-tab-por) {
+      grid-template-columns: max-content min-content;
+    }
+
+    @media only screen and (max-width: $bp-mobile) {
+      grid-row-gap: 5rem;
+      grid-template-columns: 1fr;
+    }
+
+    .footer-logo {
+      grid-column: 1 / 3;
+
+      @media only screen and (max-width: $bp-tab-por) {
+        grid-column: 1 / 2;
+      }
+
+      @media only screen and (max-width: $bp-mobile) {
+        grid-column: 1 / -1;
+      }
+
+      &__icon {
+        margin-bottom: 3rem;
+      }
+
+      &__desc {
+        font-size: 1.8rem;
+
+        a {
+          display: inline-block;
+        }
+      }
+    }
+
+    .footer-contact {
+      margin: 0 10rem;
+      grid-column: 3 / 6;
+      display: grid;
+      grid-template-rows: repeat(3, 1fr);
+      grid-row-gap: 1rem;
+
+      @media only screen and (max-width: $bp-tab) {
+        margin: 0 3rem;
+      }
+
+      @media only screen and (max-width: $bp-tab-por) {
+        grid-column: 2 / 3;
+      }
+
+      @media only screen and (max-width: $bp-mobile) {
+        grid-column: 1 / -1;
+        margin: 0 0rem;
+      }
+
+      &__address {
+        font-size: 1.4rem;
+      }
+      &__number,
+      &__email a {
+        color: $color-white;
+      }
+    }
+
+    .footer-social {
+      grid-column: 6 / 7;
+
+      @media only screen and (max-width: $bp-tab-por) {
+        grid-column: 1 / 3;
+      }
+
+      @media only screen and (max-width: $bp-mobile) {
+        grid-column: 1 / -1;
+      }
+    }
+  }
+
+  .copyright {
+    grid-column: center-start / center-end;
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: max-content max-content;
+    margin-bottom: 5rem;
+
+    @media only screen and (max-width: $bp-mobile) {
+      grid-template-columns: 1fr;
+      grid-row-gap: 3rem;
+    }
+
+    .copyright-text {
+      font-size: 1.2rem;
+    }
+
+    .copyright-links {
+      list-style: none;
+      display: flex;
+
+      &__items:not(:last-child) {
+        margin-right: 1rem;
+
+        &::after {
+          content: " | ";
+          padding: 0 10px;
+        }
+      }
+    }
+  }
+}
+
+.social {
+  list-style: none;
+  display: flex;
+
+  &__item:not(:last-child) {
+    margin-right: 1.8rem;
+  }
+}

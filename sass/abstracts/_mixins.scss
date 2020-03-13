@@ -1,0 +1,15 @@
+@mixin six-column {
+    grid-column: center-start / center-end;
+    display:grid;
+    grid-template-columns:[center-start] repeat(6, [col-start] minmax(min-content, 16.5rem) [col-end]) [center-end];
+    grid-column-gap: 3rem;
+
+}
+
+@mixin h2 {
+    font-size:8rem;
+    font-family: $font-display;
+    font-weight:700;
+    line-height: 8rem;
+    text-transform: uppercase;
+}

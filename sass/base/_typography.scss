@@ -1,0 +1,128 @@
+h1 {
+    font-size:5.5rem;
+    font-family: $font-display;
+    font-weight:700;
+    line-height: 6rem;
+    text-transform: uppercase;
+
+    @media only screen and (max-width: $bp-1260) {
+    font-size:5rem;
+    }
+
+    @media only screen and (max-width: $bp-tab-por) {
+      font-size:4.5rem;
+
+      }
+
+    @media only screen and (max-width: $bp-mobile) {
+      font-size:4.2rem;
+      line-height: 5rem;
+     }
+
+     @media only screen and (max-width: $bp-mobile) {
+      font-size:3.8rem;
+      line-height: 4.2rem;
+     }
+}
+
+h2 {
+    @include h2;
+
+    
+}
+
+h2.main {
+   @include h2;
+    position: relative;
+    z-index:2;
+
+    
+    @media only screen and (max-width: $bp-tab-por) {
+      font-size:7rem;
+      line-height: 7rem;
+
+      }
+
+
+      @media only screen and (max-width: $bp-mobile) {
+        font-size:6rem;
+        line-height: 6rem;
+  
+        }
+
+    &::before {
+      content:'';
+      z-index:-1;
+      border-radius:100%;
+      position: absolute;
+      width:15.2rem;
+      height:15.2rem;
+      left: -15%;
+      top: -15%;
+      background: linear-gradient(180deg, rgba(255, 4, 4, 0.2) 0%, rgba(255, 255, 255, 0) 113.16%);
+
+      @media only screen and (max-width: $bp-tab-por) {
+        
+        width: 11rem;
+        height: 11rem;
+        left: -10%;
+        top: -10%;
+  
+        }
+    }
+}
+
+h3 {
+    font-size:2.4rem;
+    line-height:135%;
+    text-transform:none;
+    font-weight:700;
+    color:$color-black;
+}
+
+h4 {
+  font-size: 1.8rem;
+  text-transform:none;
+
+}
+
+p {
+    font-size:1.6rem;
+    line-height:145%;
+}
+
+
+
+
+@font-face {
+    font-family: 'CircularStd';
+    src: url('../fonts/Circular/CircularStd-Book.eot');
+    src: url('../fonts/Circular/CircularStd-Book.eot?#iefix') format('embedded-opentype'), url('../fonts/Circular/CircularStd-Book.woff') format('woff'), url('../fonts/Circular/CircularStd-Book.ttf') format('truetype'), url('../fonts/Circular/CircularStd-Book.svg#bcc26993292869431e54c666aafa8fcd') format('svg');
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'CircularStd';
+    src: url('../fonts/Circular/CircularStd-Medium.eot');
+    src: url('../fonts/Circular/CircularStd-Medium.eot?#iefix') format('embedded-opentype'), url('../fonts/Circular/CircularStd-Medium.woff') format('woff'), url('../fonts/Circular/CircularStd-Medium.ttf') format('truetype'), url('../fonts/Circular/CircularStd-Medium.svg#bcc26993292869431e54c666aafa8fcd') format('svg');
+    font-weight: 500;
+    font-style: normal;
+  }
+
+
+  @font-face {
+    font-family: 'CircularStd';
+    src: url('../fonts/Circular/CircularStd-Bold.eot');
+    src: url('../fonts/Circular/CircularStd-Bold.eot?#iefix') format('embedded-opentype'), url('../fonts/Circular/CircularStd-Bold.woff') format('woff'), url('../fonts/Circular/CircularStd-Bold.ttf') format('truetype'), url('../fonts/Circular/CircularStd-Bold.svg#bcc26993292869431e54c666aafa8fcd') format('svg');
+    font-weight: 700;
+    font-style: normal;
+  }
+ 
+  @font-face {
+    font-family: 'DIN';
+    src: url('../fonts/DIN/DINPro-CondBold.otf');
+    font-weight: 700;
+    font-style: normal;
+  }
+ 
