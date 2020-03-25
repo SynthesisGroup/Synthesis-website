@@ -99,3 +99,38 @@ window.addEventListener('click', function(event){
     overlay.className = 'overlay';
   }
 })
+
+
+// $(document).ready(function() {
+//     $('.project-slider-2').hide();
+
+//     $(document).onclick('.nav-arrows__prev', function() {
+//         $('.project-slider-1').show();
+//         $('.project-slider-2').hide();
+//     });
+
+//     $(document).onclick('.nav-arrows__next', function() {
+//         $('.project-slider-1').hide();
+//         $('.project-slider-2').show();
+//     });
+// });
+
+
+ $(document).ready(function() {
+ 
+  $("#owl-demo").owlCarousel({
+ 
+      navigation : true, // Show next and prev buttons
+ 
+      slideSpeed : 300,
+      paginationSpeed : 400,
+ 
+      items : 1, 
+      itemsDesktop : false,
+      itemsDesktopSmall : false,
+      itemsTablet: false,
+      itemsMobile : false
+ 
+  });
+ 
+});
