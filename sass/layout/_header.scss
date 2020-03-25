@@ -8,7 +8,6 @@
     )
     [center-end] minmax(6rem, 1fr) [full-end];
   grid-column: full-start / full-end;
-  background-image: url(../img/hero-bg.jpg);
   background-size: cover;
   height: 100vh;
   position: relative;
@@ -17,6 +16,23 @@
   @media only screen and (max-width: $bp-tab-por) {
     padding-bottom: 12rem;
     grid-template-rows: max-content;
+    height: auto;
+  }
+}
+
+// BACKGROUNDS
+
+.bg-home {
+  background-image: url(../img/hero-bg.jpg);
+}
+
+.bg-projects {
+  background-image: url(../img/projects-bg.jpg);
+  background-position: center center;
+  height: 90rem;
+
+  @media only screen and (max-width: $bp-tab-por) {
+    padding-bottom: 35rem !important;
     height: auto;
   }
 }
@@ -37,22 +53,21 @@
     color: $color-white;
     grid-column: center-start / center-end;
     width: 95%;
-    padding: 10rem 0;
     position: relative;
     z-index: 3;
 
     @media only screen and (max-width: $bp-tab) {
-      width: 100%;
+      width: 100% !important;
       padding: 8rem 0;
     }
 
     @media only screen and (max-width: $bp-tab-por) {
       width: 100%;
-      padding: 7rem 0;
+      padding: 7rem 0 4rem;
     }
 
     @media only screen and (max-width: $bp-mobile-small) {
-      padding: 6rem 0;
+      padding: 6rem 0 4rem;
     }
 
     &::before {
@@ -90,8 +105,6 @@
   }
 
   &__description {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
     grid-column-gap: 5rem;
     color: $color-grey-light;
     grid-column: center-start / center-end;
@@ -101,6 +114,7 @@
       grid-template-columns: 28rem 1fr;
       grid-template-rows: repeat(2, min-content);
       grid-row-gap: 2rem;
+      width: 100% !important;
     }
 
     @media only screen and (max-width: $bp-tab-por) {

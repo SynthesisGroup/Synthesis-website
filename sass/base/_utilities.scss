@@ -74,3 +74,110 @@
 .mainlink.main-btn.bg-white {
   color: $color-primary !important;
 }
+
+.three-col {
+  grid-template-columns: repeat(3, 1fr);
+  display: grid;
+}
+
+.pt-100 {
+  padding-top: 10rem;
+}
+
+.pb-100 {
+  padding-bottom: 10rem;
+}
+
+.pt-50 {
+  padding-top: 5rem;
+}
+
+.pb-50 {
+  padding-bottom: 5rem;
+}
+
+.pt-40 {
+  padding-top: 4rem;
+}
+
+.pb-40 {
+  padding-bottom: 4rem;
+}
+
+.pt-30 {
+  padding-top: 3rem;
+}
+
+.pb-30 {
+  padding-bottom: 3rem;
+}
+
+.pt-20 {
+  padding-top: 2rem;
+}
+
+.w-100 {
+  width: 100% !important;
+}
+
+.w-90 {
+  width: 90% !important;
+}
+
+.w-80 {
+  width: 80% !important;
+}
+
+.w-70 {
+  width: 70% !important;
+}
+
+.w-60 {
+  width: 60% !important;
+}
+
+.w-50 {
+  width: 50% !important;
+}
+
+.w-40 {
+  width: 40% !important;
+}
+
+// margins
+
+.mt-100 {
+  margin-top: 10rem;
+}
+
+.mb-100 {
+  margin-bottom: 10rem;
+}
+
+.mt-50 {
+  margin-top: 5rem;
+}
+
+.mb-50 {
+  margin-bottom: 5rem;
+}
+
+.mt-40 {
+  margin-top: 4rem;
+}
+
+.mb-40 {
+  margin-bottom: 4rem;
+}
+
+.mt-30 {
+  margin-top: 3rem;
+}
+
+.mb-30 {
+  margin-bottom: 3rem;
+}
+
+.mt-20 {
+  margin-top: 2rem;
+}

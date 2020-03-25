@@ -86,3 +86,144 @@
     //color: $color-cool-grey;
   }
 }
+
+// PROJECT CARDS
+
+.project-cards {
+  &__image {
+    width: 100%;
+    height: 45rem;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    overflow: hidden;
+    position: relative;
+    z-index: -2;
+
+    @media only screen and (max-width: $bp-desktop-sm) {
+      height: 35rem;
+    }
+
+    @media only screen and (max-width: $bp-tab) {
+      height: 45rem;
+    }
+
+    @media only screen and (max-width: $bp-mobile) {
+      height: 30rem;
+    }
+  }
+
+  &__inner-image {
+    width: 100%;
+    height: 100%;
+    transition: $default-transition;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    background-position: center center !important;
+  }
+
+  &__featured {
+    height: 60rem;
+
+    @media only screen and (max-width: $bp-desktop-sm) {
+      height: 45rem;
+    }
+
+    @media only screen and (max-width: $bp-tab) {
+      height: 45rem;
+    }
+
+    @media only screen and (max-width: $bp-mobile) {
+      height: 30rem;
+    }
+  }
+
+  &__content {
+    background: white;
+    margin: 0 auto;
+    width: calc(100% - 12rem);
+    padding: 3rem 3rem 2rem;
+    margin-top: -6rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 50;
+
+    @media only screen and (max-width: $bp-desktop-sm) {
+      width: calc(100% - 6rem);
+    }
+
+    @media only screen and (max-width: $bp-mobile) {
+      width: calc(100% - 3rem);
+    }
+  }
+
+  &__content-featured {
+    padding: 3rem 4rem 2rem;
+  }
+
+  &__title-box {
+    position: relative;
+    margin-left: 1.5rem;
+    margin-right: 1rem;
+
+    &::before {
+      content: "";
+      background: $color-primary;
+      height: 1.2rem;
+      width: 1.2rem;
+      border-radius: 50%;
+      position: absolute;
+      left: -2.5rem;
+      top: 15%;
+
+      @media only screen and (max-width: $bp-mobile) {
+        height: 0.7rem;
+        width: 0.7rem;
+      }
+    }
+  }
+
+  &__title {
+    transition: $default-transition;
+  }
+
+  &__cat {
+    color: $color-cool-grey;
+  }
+
+  &__icon {
+    transition: $default-transition;
+    position: relative;
+    right: 0;
+
+    &--small {
+      width: 6rem;
+    }
+    img {
+      width: 100%;
+    }
+  }
+}
+
+// hover effect
+
+.project-cards__link {
+  transition: $default-transition;
+
+  &:hover {
+    opacity: 100%;
+  }
+
+  &:hover .project-cards__inner-image {
+    transform: scale(1.06);
+  }
+
+  &:hover .project-cards__title {
+    color: $color-primary;
+  }
+
+  &:hover .project-cards__icon {
+    position: relative;
+    right: -10px;
+  }
+}
