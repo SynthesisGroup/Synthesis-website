@@ -1721,12 +1721,22 @@ p {
 .project-heading__title {
   grid-column: 1 / 4;
   margin-left: 10rem; }
+  @media only screen and (max-width: 48em) {
+    .project-heading__title {
+      grid-column: 1 / -1;
+      margin-left: 0; } }
 
 .project-heading__desc {
   grid-column: 4 / -1; }
+  @media only screen and (max-width: 48em) {
+    .project-heading__desc {
+      grid-column: 1 / -1; } }
   .project-heading__desc h3 {
     color: #fff;
     font-weight: normal; }
+    @media only screen and (max-width: 78.75em) {
+      .project-heading__desc h3 {
+        font-size: 2rem; } }
   .project-heading__desc .project-date {
     color: #c4c4c4;
     margin-bottom: 2rem; }
@@ -1734,18 +1744,43 @@ p {
 .big-featured-cont {
   margin-top: -45rem;
   z-index: 9999; }
+  @media only screen and (max-width: 56.25em) {
+    .big-featured-cont {
+      margin-top: -35rem; } }
+  @media only screen and (max-width: 48em) {
+    .big-featured-cont {
+      margin-top: -25rem;
+      grid-column: 1 / -1; } }
+  @media only screen and (max-width: 35.5em) {
+    .big-featured-cont {
+      margin-top: -15rem;
+      grid-column: 1 / -1; } }
 
 .big-featured {
   grid-column: center-start / center-end; }
+  @media only screen and (max-width: 48em) {
+    .big-featured {
+      grid-column: 1 / -1; } }
   .big-featured__image {
     width: 100%; }
 
 .whatwedo.project-overview .content {
   grid-column: center-start / 4;
   padding-right: 2rem; }
+  @media only screen and (max-width: 48em) {
+    .whatwedo.project-overview .content {
+      grid-column: 1 / -1; } }
+
+@media only screen and (max-width: 78.75em) {
+  .project-overview .fly-text {
+    left: -7rem; } }
 
 .project-details {
   grid-column: 5 / -1; }
+  @media only screen and (max-width: 48em) {
+    .project-details {
+      grid-column: 1 / -1;
+      margin-top: 3rem; } }
   .project-details__item {
     margin-bottom: 5rem; }
   .project-details__title {
@@ -1769,9 +1804,15 @@ p {
 
 .project-screen {
   grid-column: center-start / center-end; }
+  @media only screen and (max-width: 48em) {
+    .project-screen {
+      grid-column: 1 / -1; } }
   .project-screen__images {
     width: 100%; }
 
 .otherprojects {
   text-align: center;
   grid-column: center-start / center-end; }
+  @media only screen and (max-width: 48em) {
+    .otherprojects {
+      grid-column: 1 / -1; } }
